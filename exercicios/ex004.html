@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de visitas</h1>
+    <button onclick="Cadastro()">Cadastrar nova Pessoa</button>
+    <p id="registroNome">Pessoas que passaram por aqui...</p>
+
+    <script>
+        function Cadastro(){
+            var nome = prompt('Qual é o nome?')
+            document.getElementById("registroNome").innerHTML += `<br> &#x1F596 Acabei de cadastrar <strong>${nome}</strong> no sistema.`
+        }
+    </script>
+</body>
+</html>

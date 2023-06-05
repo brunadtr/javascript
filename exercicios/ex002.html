@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 19pt;
+            padding: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com dados</h1>
+    <button onclick="BotaoNome()">Quero saber seu nome?</button>
+
+    <script>
+        function BotaoNome(){
+            var nome = prompt('Qual é o seu nome?')
+            confirm(`Olá ${nome}, Boas vindas!`)
+            document.body.style.backgroundColor = 'violet'
+        }
+    </script>
+</body>
+</html>

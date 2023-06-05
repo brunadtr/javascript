@@ -1,0 +1,19 @@
+body{
+    background: rgb(175,0,255);
+    background: linear-gradient(90deg, rgba(175,0,255,1) 22%, rgba(62,0,124,1) 100%);
+    text-align: center;
+}
+.principal{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(52, 51, 51, 0.599);
+    padding: 15px;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    font-size: 14pt;
+    padding: 6pt;
+}

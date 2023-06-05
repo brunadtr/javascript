@@ -1,0 +1,24 @@
+body{
+    background-color: violet;
+    text-align: center;
+}
+div{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(52, 51, 51, 0.599);
+    padding: 15px;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    font-size: 14pt;
+    padding: 6pt;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(8, 209, 8);
+}
